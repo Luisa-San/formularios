@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 32</title>
+
+    <link rel="stylesheet" href="32.css">
+</head>
+
+<body>
+
+    <h1>Formulario de contacto</h1>
+
+    <div class="caja">
+        
+        <label for="name">Nombre y Apellido (*):</label><br>
+        <input type="text" name="nombre" id="name" required>
+        <br>
+        <hr>
+        <label for="correo">Email (*)</label> <br>
+        <input type="email" name="correo" id="correo" required>
+        <br>
+        <hr>
+        <label for="genero">Género</label>
+
+        <label><input type="radio" name="genero" value="Hombre" required> Hombre</label>
+
+        <label><input type="radio" name="genero" value="Mujer"> Mujer</label>
+
+        <br>
+        <hr>
+        <label for="intereses">Intereses</label>
+        <label><input type="checkbox" name="intereses" value="Deporte"> Deporte</label>
+        <label><input type="checkbox" name="intereses" value="Politica"> Política</label>
+        <label><input type="checkbox" name="intereses" value="Ciencia"> Ciencia</label>
+
+        <br>
+        <hr>
+        <label for="Comentarios:">Comentarios</label> <br>
+        <textarea name="Comentarios" id="Comentarios" rows="6" cols="50"></textarea>
+        <br> <span class="peque">Campos requeridos (*)</span>
+        <br> <br>
+
+        
+            <input type="submit" value="Enviar datos" class="boton"> <input type="reset" value="Borrar campos" class="boton">
+            <br>
+      
+
+    </div>
+
+</body>
+
+</html>

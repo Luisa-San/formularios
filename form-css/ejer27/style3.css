@@ -1,0 +1,41 @@
+input {
+    
+    padding: 5px;
+    margin: 5px;
+    outline-color: palevioletred;
+}
+::placeholder {
+    color: black;
+}
+.c1 {
+    border-radius: 8px;
+    border: 2px solid black;
+   outline-color: palevioletred;
+}
+.c2 {
+    border: 2px solid black;
+    background-color: chartreuse;
+}
+.c3 {
+    border: none;
+    
+}
+.c4 {
+    border: none;
+    background-color: rgb(148, 92, 69);
+  
+}
+
+.c5 {
+    border: none;
+    background-color: cornflowerblue;
+   outline: none;
+}
+
+.c6 {
+    border-radius: 8px;
+    border: 2px solid rgb(76, 166, 251);
+    outline: none;
+    
+    
+}

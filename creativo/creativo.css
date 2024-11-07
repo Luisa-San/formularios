@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    font-family: "Delius Swash Caps", cursive;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #deccf4d5;
+}
+
+form {
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    transition: border 0.3s;
+}
+
+
+
+textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+.radiob {
+    margin-right: 8px;
+    color: #333;
+    font-weight: normal;
+    margin-right: 15px;
+    font-family: cursive;
+    
+}
+
+
+
+.boton {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f690e5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #9805fa;
+}
+.a1 {
+    color: #9805fa;
+    font-weight: bold;
+}
+.b1 {
+    color: rgb(14, 201, 201);
+    font-weight: bold;
+}
+.c1 {
+    color: orangered;
+    font-weight: bold;
+}
+#PDF {
+    background-color:rgb(213, 241, 246);
+}
+
+.rata {
+    
+    display: block;
+    margin: 0 auto; 
+    width: 85px; 
+    border-radius: 80%; 
+    margin-bottom: 20px; 
+  }
+  

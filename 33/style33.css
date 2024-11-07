@@ -1,0 +1,71 @@
+.todo {
+    background-color: rgb(255, 232, 203);
+    width: 500px;
+    margin: auto;
+    padding: 10px 25px;
+   
+}
+
+h1 {
+    color: coral;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+label {
+    color: brown;
+    display: inline-block;
+    width: 100px; 
+    text-align: right; 
+    vertical-align: middle;
+   
+}
+input {
+    border: 2px;
+    border-color: brown;
+    border-style:dotted;
+    padding: 8px 55px;
+    margin: 5px;
+}
+.boton {
+    background-color: brown;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 35px;
+}
+.cajab {
+    justify-content: center;
+    display: flex;
+
+}
+#sexo {
+    color: brown;
+    border: 2px;
+    border-color: brown;
+    border-style:dotted;
+    padding: 5px 7px;
+    margin: 7px;
+   
+}
+#fecha, #mes, #año {
+    color: brown;
+    border: 2px;
+    border-color: brown;
+    border-style:dotted;
+    padding: 7px 7px;
+    margin: 7px;
+}
+
+p {
+    color: brown;
+    text-align: center;
+    font-size: small;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}

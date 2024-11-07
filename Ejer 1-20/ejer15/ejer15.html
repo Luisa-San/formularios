@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+
+<body>
+    <form method="get">
+
+        <label for="name"> Nombre:</label>
+        <input type="text" name="nombre-usuario" id="nombre" size="30">
+        <br>
+
+        <label for="email">Mail:</label>
+        <input type="email" name="email" id="email" size="30">
+
+        <br>
+
+        <label for="tlf"> Teléfono:</label>
+        <input type="text" name="tlf" id="tlf" size="15" value="955-">
+        <br>
+
+        <select name="seleccion" id="seleccion">
+            <option value="sevilla" selected>Sevilla</option>
+            <option value="huelva">Huelva</option>
+            <option value="cordoba">Córdoba</option>
+            <option value="granada">Granada</option>
+            <option value="malaga">Málaga</option>
+            <option value="almería">Almería</option>
+            <option value="jaen">Jaén</option>
+            <option value="cadiz">Cadiz</option>
+            
+        </select>
+
+        <br>
+        <label for="calificar">Como calificaría a este sitio:</label>
+        <select name="calificar" id="calificar">
+            <option value="Bueno" selected>Bueno</option>
+            <option value="Regular">Regular</option>
+            <option value="Malo">Malo</option>
+            <option value="Muy bueno">Muy bueno</option>
+            <option value="excelente">Excelente</option>
+        </select>
+
+      
+        
+        <br>
+        <textarea name="area" id="area" cols="80" rows="7">Introduzca aquí sus comentarios:</textarea>
+        <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

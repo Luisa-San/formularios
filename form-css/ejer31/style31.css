@@ -1,0 +1,142 @@
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+
+.f1 {
+    color: white;
+}
+
+.c1 {
+    background-color: gray;
+    border-style: dotted;
+    border-color: black;
+
+
+}
+
+.c1 input {
+    background-color: lightsteelblue;
+
+}
+
+.c1 select {
+    background-color: lightsteelblue;
+}
+
+.legend1 {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.legend0 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+.f2 {
+    color: gold;
+    text-align: center;
+
+}
+
+.c2 {
+    background-color: rgb(112, 73, 9);
+    border-style: none;
+}
+
+.legend2 {
+    background-color: gold;
+    color: black;
+
+}
+
+.c2 input {
+    background-color: yellow;
+
+}
+
+.c2 select {
+    background-color: yellow;
+}
+
+.f3 {
+
+    color: blue;
+
+}
+
+.c3 {
+    background-color: chartreuse;
+    border: 1px solid blue;
+}
+
+.legend3 {
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+
+}
+
+.f3 input {
+    background-color: rgb(181, 245, 145);
+}
+
+.f3 select {
+    background-color: rgb(181, 245, 145);
+}
+
+
+label {
+    text-align: right;
+    width: 150px;
+    float: left;
+    margin-right: 5px;
+}
+
+#postal,
+#tlf {
+    width: 90px;
+}
+
+#mes,
+#dia,
+#año {
+    width: 87px;
+}
+
+#provincia {
+    width: 170px;
+}
+
+#genero {
+    width: 270px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+
+}
+.boton {
+    background-color: black;
+    color: white;
+    margin-inline: 2px;
+    padding: 8px;
+
+}

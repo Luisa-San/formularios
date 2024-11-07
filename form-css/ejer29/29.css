@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+input {
+    background-color: darkblue;
+   /* margin: 5px;*/
+    border-style: dotted ;
+    border-color: gold;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+button {
+    background-color: rgb(82, 165, 248);
+    color: blue;
+    margin-top: 15px;
+    
+    
+}
+#archivo {
+    color: white;
+    
+}
+#area {
+    background-color: darkblue;
+    border-style: dotted ;
+    border-color: gold;
+}
+.b1 {
+    float: left ;
+}
+.b2 {
+    float: right;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   width: 500px;
+   padding: 20px;
+}
+body {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}

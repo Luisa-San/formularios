@@ -1,0 +1,99 @@
+/* Reset de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Altura completa de la pantalla */
+    margin: 0;
+    background-color: #f4f4f4; /* Fondo para dar contraste */
+}
+
+.todo {
+    background-color: rgb(255, 232, 203);
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar el formulario */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+h1 {
+    color: coral;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    color: brown;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Ocupa el ancho completo del contenedor */
+    border: 2px dotted brown;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select {
+    border: 2px dotted brown;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: brown;
+    width: 100%; /* Ancho completo para alinear con los demás inputs */
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+/* Ajustes para los campos de fecha en línea */
+#fecha, #mes, #año {
+    width: 32%;
+    display: inline-block;
+    margin-right: 1%;
+}
+
+#año {
+    margin-right: 0; /* Quitar el margen derecho al último selector */
+}
+
+p {
+    color: brown;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.boton {
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: block;
+    width: 100%; /* Botón con ancho completo */
+    margin-top: 15px;
+}
+
+.cajab {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
