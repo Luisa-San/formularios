@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con estilos CSS</title>
+    <link rel="stylesheet" href="examen.css">
+</head>
+
+<body>
+    <form action="" method="get">
+        <h1>Formulario de contacto</h1>
+
+        <fieldset>
+            <legend class="c1">Datos Personales</legend>
+
+            <div class="caja1">
+
+                <label for="name">Nombre <span>*</span></label>
+                <input type="text" name="nombre" id="name" size="" required>
+                <br>
+               
+
+                <label for="correo">Correo electrónico <span>*</span></label>
+                <input type="email" name="correo" id="correo" size="" required>
+                <br>
+
+                <label for="tlf">Teléfono <span>*</span></label>
+                <input type="tel" name="tlf" id="tlf" size="" required>
+                <br>
+
+                <label for="Asunto">Asunto</label>
+                <select name="Asunto" id="Asunto">
+                    <option value="Entrevista" class="tx">Entrevista</option>
+                    <option value="Cita">Cita</option>
+                    <option value="info">Información</option>
+                </select>
+                <br>
+            </div>
+        </fieldset>
+        <br>
+
+        <fieldset>
+
+            <legend class="c1">Mensaje</legend>
+            <div class="caja2">
+                <br>
+            <label for="Mensaje" class="mensaje">Escriba aquí su mensaje <span>*</span></label> 
+            <textarea name="Mensaje" id="Mensaje" cols="24" rows="7" required></textarea>
+
+
+            <br> 
+            <input type="submit" value="Enviar" class="boton">
+            <br>
+
+            </div>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

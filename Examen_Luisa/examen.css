@@ -1,0 +1,103 @@
+div {
+    width: 450px;
+    
+    margin: 10px 5px;
+
+}
+
+h1 {
+    text-align: center;
+    color: #F171A8;
+}
+
+label {
+    color: #F171A8; 
+    text-align: left;
+    width: 150px;
+    float: left;
+    margin-right: 7px;
+    font-weight: bold;
+   
+}
+
+span {
+    color: red;
+}
+
+fieldset {
+    background-color: #FFF3F3;
+    border-radius: 10px;
+    border: 1px solid #f4b5d1;
+}
+
+
+input {
+    padding: 6px 8px;
+    background-color: #FFEFF7;
+    border: 1px solid #F171A8;
+    border-radius: 3px;
+    margin: 7px 5px;
+
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+.boton {
+    padding: 6px 20px;
+    background-color: #EA3B88;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+select {
+    background-color: #FFEFF7;
+    border: 1px solid #F171A8;
+    border-radius: 3px;
+    color: #F171A8;
+    margin: 4px;
+    text-align: start;
+}
+
+textarea {
+    border: 1px solid #F171A8;
+    border-radius: 3px;
+    color: #F171A8;
+    background-color: #FFEFF7;
+
+}
+
+legend {
+    color: #FCACD2;
+
+
+}
+
+.c1 {
+    border: 1px solid #f4b5d1;
+    background-color: #FFF3F3;
+    border-bottom: none;
+}
+#Asunto {
+    width: 181px;
+    height: 28px;
+}
+
+.mensaje {
+ font-size: large;
+}
